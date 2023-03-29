@@ -1,0 +1,82 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(138, 138, 138);
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.466);
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.466);
+    
+}
+footer{
+    background-color: black;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+article{
+    background-color: #b3b3b3;
+    padding: 5px;
+    border-radius: 10px 0px 10px 0px;
+}
+article > aside{
+    background-color: black;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    
+}
+nav{
+    background-color: grey;
+    box-shadow: 2px 2px 3px 0px #3333335b;
+    
+}
+nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+section{
+    background-color: #b3b3b3;
+    padding: 5px;
+    border: 15px;
+    border-radius: 10px 0px 10px 0px;
+    margin: 5px;
+}
+section > ul {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+li > a:hover{
+    text-decoration: underline;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

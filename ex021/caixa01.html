@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        
+        h1{ /* box-level */
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid rgb(158, 247, 100);
+
+           padding: 10px ;
+
+           margin: 10px solid rgb(87, 22, 22);
+
+
+            outline: 10px solid blue;
+        }
+        
+            
+        a{ /* inline-level */
+            border-width: 10px;
+            border-style: dashed;
+            border-color: blue;
+        }
+        
+        p{
+            border-width: 10px;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>paragrafos tambem são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-level </a>. vamos ver como tudo isso funciona</p>
+    <h1>lalalala</h1>
+    <p>
+        por algum motivo o link não esta funcionando direito. <a href="">clique neste link para não acontecer nada</a>
+    </p>
+</body>
+</html>
